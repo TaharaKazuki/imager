@@ -8,6 +8,7 @@ type Props = {
 }
 
 const ProgressBar = ({ file, setFile }: Props) => {
+  console.info('通過')
   const { progress, url } = useStorage(file)
 
   useEffect(() => {

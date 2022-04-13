@@ -6,8 +6,8 @@ const App = () => {
   return (
     <div className="App">
       <Title />
-      <UploadForm />
-      <ImageGrid />
+      {/* <UploadForm />
+      <ImageGrid /> */}
     </div>
   )
 }
